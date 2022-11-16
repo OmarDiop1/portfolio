@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <title>Portfolio OD</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul class="normal desktop">
+               <li><a href="#">Accueil</a></li>
+               <li><a class="" href="#presentation">Présentation</a></li>
+               <li><a class="projet_submenu" href="#projets">Projets</a>
+                <ul class="submenu">
+                    <li><a href="#" >Personnel</a></li>
+                    <li><a href="#">Personnel</a></li>
+                    <li><a href="#">Personnel</a></li>
+    
+                </ul></li>
+               <li><a href="#veille">Veille Tech</a></li>
+               <li><a href="#">Futur..?</a></li>
+            </ul>
+       
+         </nav>
+         <label for="check" class="mobile" >
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul class="hidden_menu">
+               <ul>
+                  <li><a href="#" onclick="hidden_menu.classList.toggle('shown_menu')">Accueil</a></li>
+                  <li><a class="" href="#presentation" onclick="hidden_menu.classList.toggle('shown_menu')">Présentation</a></li>
+                  <li><a class="projet_submenu" href="#projets" onclick="hidden_menu.classList.toggle('shown_menu')">Projets</a></li>
+                  <li><a href="#veille" onclick="hidden_menu.classList.toggle('shown_menu')">Veille Tech</a></li>
+                  <li><a href="#" onclick="hidden_menu.classList.toggle('shown_menu')">Futur..?</a></li>
+               </ul>
+            </ul>
+          </label>
+      </header>
+      <main>
+         <section class="first_part" id="presentation">
+            <h1 class="animate__animated animate__zoomIn">Bienvenue Dans Mon Portfolio</h1>
+            <ul class="animate__slideInUp animate__animated">
+               <li>Concepteur Développeur d'Application</li>
+               <li>Omar DIOP</li>
+            </ul>
+            <a href="#projets"><img src="./asset/142051.png" alt=""></a>
+         </section>
+         <section class="second_part">
+            <h1 class="animate__animated animate__zoomIn">Qui Suis-Je ?</h1>
+            <div class="animate__slideInUp animate__animated" role="complementary">
+               <ul>
+                  <li>Omar DIOP</li>
+                  <li>24 ans</li>
+                  <li>Bachelor CDA</li>
+                  <li><a target="_blank" href="./CV_2022-11-14_OMAR_DIOP-4.pdf">Curriculum Vitae</a></li>
+                  <li>Créatif et Passionné</li>
+                  
+               </ul>
+               <ul>
+                  <li>Hobbies : </li>
+                  <ul>
+                     <li><img src="./asset/logo-github.png" alt=""></li>
+                     <li><img src="./asset/logo-github.png" alt=""></li>
+                     <li><img src="./asset/logo-github.png" alt=""></li>
+                  </ul>
+               </ul>
+            </div>
+         </section>
+         <section class="third_part" id="projets">
+            <h1 class="animate__animated animate__zoomIn">Mes Projets:</h1>
+            <div class="animate__slideInUp animate__animated" role="complementary">
+               <img src="./asset/logoSimpleSediaServices.jpg" alt="">
+               <ul>
+                  <li>Projets Professionnels:</li>
+                     <li><a href="#">Création d'un Site Dynamique Pour Sedia Services</a></li>
+                     <li><a href="#">Développement d'une Fonctionnalité de Connexion </a></li>
+                     <li><a href="#">Création et Gestion d'une Base de Données </a></li>
+                  </ul>
+            </div>
+         </section>
+         <section class="fourth_part">
+            <h1 class="animate__animated animate__zoomIn"></h1>
+            <div class="animate__slideInUp animate__animated" role="complementary">
+               <img src="./asset/projetperso.png" alt="Logo Itic">
+               <ul>
+                  <li>Projets Scolaires:</li>
+                     <li><a href="#">Page Affiche Animation Jap</a></li>
+                     <li><a href="#">Clone Instagram</a></li>
+                     <li><a href="#">AP Maison des Ligues Web</a></li>
+                     <li><a href="#">AP Application Java Maison des ligues</a></li>
+                  </ul>
+            </div>
+         </section>
+      
+         <section class="third_part" id="veille">
+            <h1 class="animate__animated animate__zoomIn">Veille Technologique</h1>
+
+            <figure>
+                <img src="./asset/horizon-worlds.jpeg" alt="">
+                <figcaption>
+                    <h3>LE MÉTAVERSE :</h3>
+                    <p>En Quoi Est-Ce Une Révolution Numérique ?</p>
+                </figcaption>
+            </figure>
+            <!-- <div class="animate__slideInUp animate__animated" role="complementary">
+               <img src="./asset/Logo Hollyghost noir(1).png" alt="">
+               <ul>
+                  <li>Projets :</li>
+                     <li><a href="#">Application HOLLYGHOST</a></li>
+                     <li><a href="#">Développement du menu mobile</a></li>
+                     <li><a href="#">Développement  d’une page d’inscription</a></li>
+                     <li><a href="#">Développement de la page d'accueil</a></li>
+                  </ul>
+            </div> -->
+         </section>
+      </main>
+
+
+      <footer>
+         <p>&copy;Omar DIOP</p>
+         <script src="./app/app.js"></script>
+      </footer>
+   </body>
+</html>
