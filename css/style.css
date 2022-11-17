@@ -226,7 +226,6 @@ header nav .normal li ,header nav .zommheight:first-child li{
 
 .first_part>ul {
 
-
 	font-size: 4rem;
 	text-align: center;
 	width: 90%;
@@ -285,20 +284,23 @@ header nav .normal li ,header nav .zommheight:first-child li{
 
 }
 
-.second_part>div>ul:last-child>ul>li>img {
-	display: block;
-	cursor: pointer;
-	width: 8rem;
-	transition: all .3s;
+.div-image { 
+	
 
-	margin: 0 auto;
-}
-
-.second_part>div>ul:last-child>ul>li>img:hover {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	
+	overflow: hidden;
+  }
+  .image-zoom {
+	transition: 0.4s;
+  }
+  .image-zoom:hover {
 	transform: scale(1.2);
-	transition: all .3s;
+  }
 
-}
+
 /*MARK TEST*/
 
 .third_part>h1 {
@@ -333,6 +335,13 @@ header nav .normal li ,header nav .zommheight:first-child li{
     padding-left: 1rem;
     color: white;
 
+}
+.videoSedia{
+	display: block;
+	border-radius: 15%;
+	width: 60rem ; 
+	height: auto;
+	
 }
 
 
